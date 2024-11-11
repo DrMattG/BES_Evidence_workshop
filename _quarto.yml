@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - meta_analysis_exercise_BES.qmd
+
+format:
+  html:
+      highlight-style: a11y
+      theme:
+        light: [zephyr, css/light.scss]
+        dark: [zephyr, css/dark.scss, css/light.scss]
+      code-link: true
+
+execute:
+  freeze: auto
